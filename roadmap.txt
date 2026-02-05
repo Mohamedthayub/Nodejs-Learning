@@ -1,0 +1,331 @@
+Day 1 – Backend & Node Basics
+
+Learn
+
+What backend is
+
+What Node.js solves
+
+Node vs Browser JS
+
+Event loop (high level)
+
+Build
+👉 Simple Node script
+
+Print system info
+
+Read command-line arguments
+
+Day 2 – Core Modules
+
+Learn
+
+fs, path, os
+
+Sync vs Async methods
+
+Build
+👉 File Manager
+
+Create file
+
+Read file
+
+Append data
+
+Delete file
+
+Day 3 – HTTP Server (No Express)
+
+Learn
+
+http module
+
+Request & response
+
+Status codes
+
+Build
+👉 Basic HTTP API
+
+/ → Welcome
+
+/users → JSON response
+
+Day 4 – Async JS (Backend Style)
+
+Learn
+
+Callbacks
+
+Promises
+
+async/await
+
+try/catch
+
+Build
+👉 Async File API
+
+Read & write user data asynchronously
+
+Day 5 – NPM & Project Setup
+
+Learn
+
+npm init
+
+package.json
+
+nodemon
+
+Environment variables
+
+Build
+👉 Notes API (JSON file storage)
+
+Add note
+
+View notes
+
+Delete note
+
+Day 6 – REST API Design
+
+Learn
+
+GET, POST, PUT, DELETE
+
+REST rules
+
+JSON request/response
+
+Build
+👉 Notes REST API (No Express)
+
+Day 7 – Revision + Mini Project
+
+Build
+👉 Task Manager (Node only)
+
+Add task
+
+View tasks
+
+Update task
+
+Delete task
+
+🟡 WEEK 2 — Express.js (Real Backend Development)
+🎯 Goal
+
+Create clean REST APIs with proper structure.
+
+Day 8 – Express Basics
+
+Learn
+
+What Express is
+
+app.get, app.post
+
+Server setup
+
+Build
+👉 Express Hello API
+
+Day 9 – Request Handling
+
+Learn
+
+req.params
+
+req.query
+
+req.body
+
+JSON middleware
+
+Build
+👉 User API (In-memory data)
+
+Day 10 – Middleware (Very Important)
+
+Learn
+
+What middleware is
+
+Custom middleware
+
+next()
+
+Build
+👉 Logger middleware
+👉 Auth check middleware (dummy)
+
+Day 11 – Error Handling
+
+Learn
+
+Central error handler
+
+Custom errors
+
+Build
+👉 Error-safe User API
+
+Day 12 – Project Structure
+
+Learn
+
+Routes
+
+Controllers
+
+Services
+
+Build
+👉 Refactor User API
+
+Clean folders
+
+Professional code
+
+Day 13 – Validation & Status Codes
+
+Learn
+
+Input validation
+
+Proper HTTP responses
+
+Build
+👉 Validated User API
+
+Day 14 – Express Mini Project
+
+Build
+👉 Event Management API
+
+Create event
+
+View events
+
+Update event
+
+Delete event
+
+🟠 WEEK 3 — Database, Auth & Real Project
+🎯 Goal
+
+Build portfolio-ready backend.
+
+Day 15 – Database Basics (MongoDB)
+
+Learn
+
+Why database
+
+MongoDB concepts
+
+Mongoose
+
+Build
+👉 User model + CRUD
+
+Day 16 – Advanced CRUD
+
+Learn
+
+Queries
+
+Filters
+
+Pagination
+
+Build
+👉 Event API with DB
+
+Day 17 – Authentication (JWT)
+
+Learn
+
+bcrypt
+
+JWT
+
+Auth middleware
+
+Build
+👉 Register & Login API
+
+Day 18 – Protected Routes
+
+Learn
+
+Token verification
+
+Role-based access (basic)
+
+Build
+👉 Protected profile route
+
+Day 19 – Security & Best Practices
+
+Learn
+
+Environment variables
+
+Basic security rules
+
+Password safety
+
+Build
+👉 Secure Auth API
+
+Day 20 – Final Project
+
+Build
+👉 Library / Event / Task Management Backend
+
+Express
+
+MongoDB
+
+JWT
+
+Proper structure
+
+Day 21 – Testing & Integration
+
+Learn
+
+Postman testing
+
+Connect backend to React
+
+API documentation
+
+🎯 Final Outcome
+
+1 strong backend project
+
+Real APIs
+
+Interview-ready basics
+
+📚 Best Tutorials (DON’T WATCH EVERYTHING)
+🔥 Node + Express (Main)
+
+freeCodeCamp – Node.js & Express Full Course
+
+🔥 Express + MongoDB
+
+Traversy Media
+
+🔥 Auth (JWT)
+
+Net Ninja
+
+🚫
