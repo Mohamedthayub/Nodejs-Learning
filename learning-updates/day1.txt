@@ -1,0 +1,6 @@
+Today i learnt 
+what is nodejs ? 
+what is diffrence between  nodejs and browser ?
+what know before start to learn about node js  ?
+what is diffrence between  nodejs and express js ?   
+what problem does node js solve ? 
