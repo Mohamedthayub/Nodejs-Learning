@@ -1,5 +1,5 @@
-Today i learnt 
-what is nodejs ? 
+Today i learnt .
+what is node js ? 
 what is diffrence between  nodejs and browser ?
 what know before start to learn about node js  ?
 what is diffrence between  nodejs and express js ?   
