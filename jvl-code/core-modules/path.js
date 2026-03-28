@@ -15,7 +15,8 @@ Directory name : users/logesh/projects/demo
 Extension name :  .js
 */
 
-// --------------------------------------------------------------------------------
+// --------------------
+// we use path for working in diffrent platform ;------------------------------------------------------------
 
 
 console.log(__dirname +'/test.txt'); //  this is how we join path using  __dirname function;
@@ -24,4 +25,3 @@ console.log(__dirname +'/test.txt'); //  this is how we join path using  __dirna
 console.log("Joined Path",path.join(__dirname,"demo","test.js")); // here we use join function to join the two path;
 // Joined Path /home/thayub/developer/nodejs-learning/jvl-code/core-modules/demo/test.js
 
-// we use path for working in diffrent platform ;
