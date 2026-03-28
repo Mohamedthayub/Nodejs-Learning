@@ -1,8 +1,18 @@
 const http = require('http');
 
 const server = http.createServer((req,res) => {
-    res.writeHead(200,{'content-type':"application/json"});
-    res.end(`{name : "Mohamed Thayub"}`);
+    if(req.url =="/"){
+        res.writeHead(200,{'content-type':"text/plain"});
+        res.end("Home Page");
+    }
+    else if(req.url == "/about"){
+        res.writeHead(200,{'content-type':"text/plain"});
+        res.end("About Page");
+    }
+    else{
+        res.writeHead(404,{'content-type':"text/plain"});
+        res.end("Page Not Found");
+    }
 });
 
 server.listen(5000, () => {
