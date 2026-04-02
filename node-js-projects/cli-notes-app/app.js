@@ -1,3 +1,4 @@
+// import { validateNotes } from "../test/cli-notes-app/validate_notes";
 const fs = require("fs");
 const path = require("path");
 
@@ -9,7 +10,7 @@ const command = process.argv[2];
 const value = process.argv[3];
 
 // helper: read notes
-const readNotes = () => {
+export const readNotes = () => {
   try {
     const data = fs.readFileSync(filePath, "utf-8");
     return JSON.parse(data);
@@ -26,6 +27,7 @@ const saveNotes = (notes) => {
 // ADD NOTE
 if (command === "add") {
   const notes = readNotes();
+  // if()
   notes.push(value);
   saveNotes(notes);
   console.log("Note added ✅");
@@ -34,7 +36,6 @@ if (command === "add") {
 // LIST NOTES
 else if (command === "list") {
   const notes = readNotes();
-
   if (notes.length === 0) {
     console.log("No notes found ❌");
   } else {
