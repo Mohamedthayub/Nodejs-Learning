@@ -1,18 +1,17 @@
 const fs = require('fs');
 
-// console.log(fs);
-// fs.writeFile('new.txt',"this is for practice",(err) => {
-//     if(err){
-//         throw err;
-//     }
-//     console.log("File creating done...");
-// })
-// console.log("File Processing happening..");
+fs.writeFileSync('test.txt',"this is for test");
 
-fs.readFile('new.txt',{encoding : 'utf-8'}, (err,data) => {
+console.log("The Process is happening...");
+
+
+fs.readFile('test.txt', {encoding : 'utf-8'},(err,data) => {
     if(err){
         throw err;
     }
-    console.log("Reading file -> ",data);
-} )
-console.log("File Reading  Processing");;
+    console.log("Read File async -> ",data
+    );
+})
+console.log("The File Writing Processing");
+
+// this is how we read the file ;
