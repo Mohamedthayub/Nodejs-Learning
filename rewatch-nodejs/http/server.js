@@ -12,7 +12,8 @@ const httpServer = http.createServer((req,res) => {
     else if(req.url == "/file"){
     const readStream  = fs.createReadStream("./sample.mp4" )
      res.writeHead(200,{'content-type' : 'video/mp4'});
-    //  res.end("File Page");
+    //  res.end("File Page"); 
+    
     readStream.pipe(res);
    }
    else{
