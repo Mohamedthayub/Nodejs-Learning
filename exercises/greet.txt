@@ -1,0 +1,1 @@
+WelCome to Node jsThis data come from appendFile
