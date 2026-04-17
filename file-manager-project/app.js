@@ -18,8 +18,18 @@ const fileName = process.argv[3];
 const newFileName = process.argv[4];
 const filePath = path.join(__dirname , "files",fileName);
 
+
+// if(!fileName){
+//     console.log("you should enter filename");
+//     process.exit();
+// }
 if(command == "create"){
-    fs.writeFileSync(filePath,"This file  was created using Node js");
+    if(fs.existsSync(filePath)){
+        console.log("File Already exist");
+    }
+    else{
+        fs.writeFileSync(filePath,"This file  was created using Node js");        
+    }
 }
 
 else if (command == "read"){
@@ -47,5 +57,5 @@ else if(command == "rename"){
 
 }
 else{
-    console.log("invalid command");
+    console.log("Invalid command");
 }
