@@ -1,25 +1,25 @@
 const express = require('express');
 const app = express();
-
+// console.log(app
 
 app.use((req,res,next) => {
-    next(); 
+    next();
+})
+
+app.get("/",(req,res) => {
+    res.status(200).send("Hello This is Get Request");
+})
+
+app.post('/',(req,res) => {
+    res.status(200).send("Hello This is Post Request App")
 });
-// here it is middleware .it will decide what should do for every request;
-
-app.get('/',(req,res) => {
-    res.status(200).send("Hello Express App");
-})
-
-app.post("/",(req,res) => {
-    res.status(201).send("This is a Post request from express");
-})
 
 app.use((req,res,next) => {
-    res.status(404).send("Bad Request");
+    res.status(404).send("The Page is Not Found");
 })
 
 app.listen(3000,() => {
-    console.log("Server listening to http://localhost:3000");
+    console.log("Server listening http://localhost:3000")
 })
+
 // here the express app is running port number 3000;
