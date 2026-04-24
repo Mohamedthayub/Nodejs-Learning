@@ -56,7 +56,7 @@ for(let i = 0; i<exts.length; i++){
 3. Print full absolute path of that file
 */
 let buildPath = "documents/work/report.pdf"
-console.log(path.resolve(buildPath)); // here i join path using resolve function ;
+console.log(path.resolgve(buildPath)); // here i join path using resolve function ;
 console.log(path.join(__dirname ,"documents","work","report.pdf")); // here i join path using join function 
 console.log(path.extname("report.pdf")); // it extname function gets  the extension of the file name ;
 
