@@ -1,6 +1,5 @@
-// import { validateNotes } from "../test/cli-notes-app/validate_notes";
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
 // create file path safely
 const filePath = path.join(__dirname, "notes.json");
@@ -10,7 +9,7 @@ const command = process.argv[2];
 const value = process.argv[3];
 
 // helper: read notes
-export const readNotes = () => {
+ const readNotes = () => {
   try {
     const data = fs.readFileSync(filePath, "utf-8");
     return JSON.parse(data);
