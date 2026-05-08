@@ -57,6 +57,7 @@ fs.unlinkSync()
 */
 
 
+
 try{
     fs.unlinkSync('./hello.txt')
     console.log("File deleted Successfully");
@@ -64,4 +65,3 @@ try{
 catch(err){
     console.log("Error deleting File",err.message);
 }
-

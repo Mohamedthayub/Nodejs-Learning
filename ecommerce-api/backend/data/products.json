@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Oppo",
+    "price": 245.67,
+    "description": "Oppo F21 Pro 5G is a powerful device",
+    "ratings": 4.5,
+    "images": [
+      { "image": "/images/products/1.jpg" },
+      { "image": "/images/products/2.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Amazon",
+    "stock": 5
+  },
+  {
+    "name": "Samsung Galaxy S21",
+    "price": 799.99,
+    "description": "Premium flagship smartphone with great camera",
+    "ratings": 4.7,
+    "images": [
+      { "image": "/images/products/3.jpg" },
+      { "image": "/images/products/4.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Flipkart",
+    "stock": 8
+  },
+  {
+    "name": "iPhone 13",
+    "price": 999.99,
+    "description": "Apple iPhone 13 with A15 Bionic chip",
+    "ratings": 4.8,
+    "images": [
+      { "image": "/images/products/5.jpg" },
+      { "image": "/images/products/6.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Apple Store",
+    "stock": 10
+  },
+  {
+    "name": "OnePlus 11",
+    "price": 699.99,
+    "description": "Fast and smooth performance with Snapdragon processor",
+    "ratings": 4.6,
+    "images": [
+      { "image": "/images/products/7.jpg" },
+      { "image": "/images/products/8.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Amazon",
+    "stock": 6
+  },
+  {
+    "name": "Xiaomi Redmi Note 12",
+    "price": 299.99,
+    "description": "Affordable phone with excellent battery life",
+    "ratings": 4.3,
+    "images": [
+      { "image": "/images/products/9.jpg" },
+      { "image": "/images/products/10.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Mi Store",
+    "stock": 15
+  },
+  {
+    "name": "Realme Narzo 60",
+    "price": 199.99,
+    "description": "Budget-friendly smartphone with solid performance",
+    "ratings": 4.2,
+    "images": [
+      { "image": "/images/products/11.jpg" },
+      { "image": "/images/products/12.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Flipkart",
+    "stock": 12
+  },
+  {
+    "name": "Vivo V27",
+    "price": 459.99,
+    "description": "Stylish design with excellent camera quality",
+    "ratings": 4.4,
+    "images": [
+      { "image": "/images/products/13.jpg" },
+      { "image": "/images/products/14.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Amazon",
+    "stock": 7
+  },
+  {
+    "name": "Google Pixel 7",
+    "price": 849.99,
+    "description": "Best Android experience with clean UI",
+    "ratings": 4.7,
+    "images": [
+      { "image": "/images/products/15.jpg" },
+      { "image": "/images/products/16.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Google Store",
+    "stock": 9
+  },
+  {
+    "name": "Motorola Edge 40",
+    "price": 599.99,
+    "description": "Smooth performance with near-stock Android",
+    "ratings": 4.5,
+    "images": [
+      { "image": "/images/products/17.jpg" },
+      { "image": "/images/products/18.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Flipkart",
+    "stock": 11
+  },
+  {
+    "name": "Nothing Phone 1",
+    "price": 499.99,
+    "description": "Unique transparent design with solid specs",
+    "ratings": 4.4,
+    "images": [
+      { "image": "/images/products/19.jpg" },
+      { "image": "/images/products/20.jpg" }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Amazon",
+    "stock": 6
+  }
+]

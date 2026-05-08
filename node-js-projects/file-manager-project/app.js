@@ -24,7 +24,7 @@ const filePath = path.join(__dirname , "files",fileName);
 //     process.exit();
 // }
 if(command == "create"){
-    if(fs.existsSync(filePath)){
+    if(!fs.existsSync(filePath)){
         console.log("File Already exist");
     }
     else{
@@ -48,12 +48,11 @@ else if (command == "delete"){
 }
 else if(command == "rename"){
     const newFilePath  = path.join(__dirname , "files", newFileName);
-    fs.renameSync(filePath,newFilePath,(err) => {
-        if(err){
-            throw err;
-            return;
-        }
-    })
+    
+    fs.rename(filePath, newFilePath, (err) => {
+       if (err) throw err;
+       console.log('File renamed successfully');
+    });
 
 }
 else{

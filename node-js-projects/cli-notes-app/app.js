@@ -49,9 +49,9 @@ else if (command === "list") {
 else if (command === "delete") {
   const notes = readNotes();
   const newNotes = notes.filter((note) => note !== value);
-
   saveNotes(newNotes);
   console.log("Note deleted ❌");
+
 }
 
 // INVALID COMMAND
